@@ -1,0 +1,480 @@
+@font-face
+{
+	font-family: "hey_pretty_girl";
+	src: url(../fonts/Hey_Pretty_Girl.ttf);
+}
+
+@font-face
+{
+	font-family: "luz_sans_book";
+	src: url(../fonts/LUZHPORO.TTF);
+}
+
+html, body, header, div, a, img, span ,ul, li, footer
+{
+	margin: 0px;
+	padding: 0px;
+	outline: 0px;
+	border: none;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html, body
+{
+	height: 100%;
+	background: white;
+	/*overflow-y: scroll;*/
+	font:16px sans-serif; *font-size: small;
+}
+
+header, footer, nav, span, a
+{
+	display: block;
+}
+
+nav ul, nav li
+{
+	margin: 0;
+	list-style: none;
+	list-style-image: none;
+}
+
+a, a:hover, a:active, a:visited
+{
+	outline: none;
+	text-decoration: none;
+}
+
+.letrero
+{
+	font-family: "hey_pretty_girl", sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+
+#menu_principal .letrero
+{
+	color: black;
+}
+
+.fila
+{
+	width: 100%;
+	max-width: 1140px;
+	min-width: 755px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.corte_home
+{
+	clear: both;
+	padding-bottom: 80px;
+}
+
+.corte_about_me, .corte_follow_me, .corte_more
+{
+	clear: both;
+	padding-bottom: 90px;
+}
+
+.boton
+{
+	width: 80px;
+	height: 76px;
+	background: transparent url(../img/boton_negro.png) no-repeat center;
+	border: none;
+	line-height: 0; font-size: 0;
+	margin: auto;
+	padding: 0;
+	z-index: 100;
+	border: none;
+}
+
+.boton_volver
+{
+	width: 33px;
+	height: 33px;
+	background: transparent url(../img/boton_volver_negro.png) no-repeat center;
+	border: none;
+	line-height: 0; font-size: 0;
+	margin: auto;
+	padding: 0;
+	z-index: 100;
+	border: none;
+}
+
+.contenedor
+{
+	width: 100%;
+	min-height: 100%;
+	height: auto;
+	padding: 0;
+	margin: 0;
+}
+
+#creado_por
+{
+	font-family: "Courier New", Monospace;
+	font-size: 0.9em;
+	font-weight: 700;
+	color: #333333;
+	text-align: center;
+}
+
+header.home
+{
+	width: 100%;
+	height: auto;
+	padding: 0;
+	margin: 0;
+}
+
+#imagen_principal
+{
+	clear: both;
+	padding-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 80px;
+}
+
+a.principal
+{
+	display: block;
+	height: 350px;
+	width: 220px;
+	margin: 0 auto;
+}
+
+a.principal img
+{
+	display: block;
+	margin: 0 auto;
+}
+
+.letrero_principal
+{
+	width: 213px;
+	line-height: 42.5px;
+	margin: 0 auto;
+	font-weight: 400;
+	font-size: 42.9px;
+	color: white;
+	text-align: center;
+	background-color: black;
+}
+
+#letrero_principal_home
+{
+	position: relative;
+	top: -15px;
+}
+
+#letrero_principal_header
+{
+}
+
+a:hover div.boton
+{
+	width: 80px;
+	height: 76px;
+	background: transparent url(../img/boton_amarillo.png) no-repeat center;
+	border: none;
+	line-height: 0; font-size: 0;
+	margin: auto;
+	padding: 0;
+	z-index: 100;
+	border: none;
+}
+
+a:hover div.boton_volver
+{
+	width: 33px;
+	height: 33px;
+	background: transparent url(../img/boton_volver_amarillo.png) no-repeat center;
+	border: none;
+	line-height: 0; font-size: 0;
+	margin: auto;
+	padding: 0;
+	z-index: 100;
+	border: none;
+}
+
+#about_me
+{
+	width: 80px;
+	height: 76px;
+	background: transparent url(../img/icono_about_me.png) no-repeat center;
+	margin: auto;
+	padding: 0;
+	z-index: 500;
+	border: none;
+}
+
+#arq
+{
+	width: 80px;
+	height: 76px;
+	background: transparent url(../img/icono_arq.png) no-repeat center;
+	margin: auto;
+	padding: 0;
+	z-index: 500;
+	border: none;
+}
+
+#sketch
+{
+	width: 80px;
+	height:76px;
+	background: transparent url(../img/icono_sketch.png) no-repeat center;
+	margin: auto;
+	padding: 0;
+	z-index: 500;
+	border: none;
+}
+
+#more
+{
+	width: 80px;
+	height: 76px;
+	background: transparent url(../img/icono_more.png) no-repeat center;
+	margin: auto;
+	padding: 0;
+	z-index: 500;
+	border: none;
+}
+
+#follow_me
+{
+	width: 80px;
+	height: 76px;
+	background: transparent url(../img/icono_arrow.png) no-repeat center;
+	margin: auto;
+	padding: 0;
+	z-index: 500;
+	border: none;
+}
+
+#back
+{
+	width: 33px;
+	height: 33px;
+	background: transparent url(../img/icono_back.png) no-repeat center;
+	margin: auto;
+	padding: 0;
+	z-index: 500;
+	border: none;
+}
+
+li.boton_menu
+{
+	display: block;
+	width: 90px;
+	float: left;
+	margin-right: 70px;
+}
+
+li.boton_menu a
+{
+	display: block;
+}
+
+li.boton_menu a span
+{
+	text-align: center;
+	font-size: 22px;
+}
+
+li.boton_menu.primer_elemento
+{
+	margin-left: 205px;
+	padding: 0;
+}
+
+li.boton_menu.ultimo_elemento
+{
+	margin: 0;
+	padding: 0;
+}
+
+footer.home
+{
+	height: 70px;
+	margin-top: -70px;
+}
+
+footer.home a
+{
+	text-align: center;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 22px;
+	line-height: 50px;
+	color: black;
+	width: 240px;
+	margin: auto;
+}
+
+header.about_me, header.follow_me, header.more
+{
+	background-color: rgb(255, 204, 0);
+	padding-top: 15px;
+}
+
+header.about_me span, header.follow_me span, header.more span
+{
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+section.about_me
+{
+	text-align: center;
+	padding-top: 20px;
+}
+
+.contenido span.texto
+{
+	font-family: "luz_sans_book", Arial, sans-serif;
+	font-size: 14.4px;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.gris
+{
+	color:rgb(102,102,102);
+}
+
+#nombre
+{
+	font-size: 19.6px;
+	color: rgb(51,51,51);
+}
+
+.capital
+{
+	display: inline;
+	font-weight: 800;
+	font-size: 22px;
+}
+
+#fecha
+{
+	font-size: 11px;
+}
+
+#arquitecta
+{
+	font-size: 19.6px;
+	color: rgb(51,51,51);
+}
+
+.contenido .letrero
+{
+	padding-top: 15px;
+	font-size: 18px;
+}
+
+.letrero2
+{
+	display: inline;
+	font-size: 14px;
+}
+
+strong
+{
+	color: rgb(51,51,51);
+}
+
+#foto_estela
+{
+	width: 207px;
+	height: 207px;
+	background: transparent url(../img/foto_estela.png) no-repeat center;
+	margin: auto;
+	padding: 0;
+	z-index: 500;
+	border: none;
+}
+
+footer.about_me, footer.follow_me, footer.more
+{
+	height: 87px;
+	padding-bottom: 3px;
+	margin-top: -90px;
+}
+
+footer.about_me a, footer.follow_me a, footer.more a
+{
+	height: 50px;
+	width: 80px;
+	margin: auto;
+	padding-top: 20px;
+}
+
+footer.about_me a span, footer.follow_me a span, footer.more a span
+{
+	text-align: center;
+	color: black;
+	font-size: 14px;
+}
+
+section.follow_me
+{
+	margin-top: 13%;
+}
+
+section.follow_me nav
+{
+	width: 410px;
+	height: 102px;
+	margin: auto;
+}
+
+#instagram
+{
+	width: 80px;
+	height: 76px;
+	background: transparent url(../img/icono_instagram.png) no-repeat center;
+	margin: auto;
+	padding: 0;
+	z-index: 500;
+	border: none;
+}
+
+#flickr
+{
+	width: 80px;
+	height: 76px;
+	background: transparent url(../img/icono_flickr.png) no-repeat center;
+	margin: auto;
+	padding: 0;
+	z-index: 500;
+	border: none;
+}
+
+#mail
+{
+	width: 80px;
+	height: 76px;
+	background: transparent url(../img/icono_mail.png) no-repeat center;
+	margin: auto;
+	padding: 0;
+	z-index: 500;
+	border: none;
+}
+
+section.more
+{
+	font-family: "hey_pretty_girl";
+	font-weight: 900;
+	font-size: 40px;
+	color: rgb(51, 51, 51);
+	text-align: center;
+	padding-top: 13%;
+}
