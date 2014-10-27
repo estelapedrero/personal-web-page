@@ -478,3 +478,23 @@ section.more
 	text-align: center;
 	padding-top: 13%;
 }
+
+.dibujo {
+	text-align: center;
+	margin: 50px 80px 20px 80px;
+}
+
+.images {
+	height: 250px;
+	width:250px;
+	display: inline-block;
+	margin: 5px;
+	
+}
+
+.images:hover{
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	opacity: 0.1;
+}
