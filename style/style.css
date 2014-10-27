@@ -483,18 +483,27 @@ section.more
 	text-align: center;
 	margin: 50px 80px 20px 80px;
 }
-
-.images {
+.imgs li{
+	display:inline-block;
+	text-decoration: none;
+	position: relative;
+}
+.imgs li img{
 	height: 250px;
-	width:250px;
-	display: inline-block;
-	margin: 5px;
-	
+	margin:5px;
+}
+.imgs li p{
+	display: none;
+
 }
 
-.images:hover{
+.hover{
+	font-family: "hey_pretty_girl";
 	height: 250px;
-	width: 250px;
 	border-radius: 50%;
 	opacity: 0.1;
+	display: inline-block;
+	position: absolute;
+	top: 125px;
+	left: 90px;
 }
