@@ -24,7 +24,6 @@ html, body, header, div, a, img, span ,ul, li, footer
 html, body
 {
 	height: 100%;
-	background: white;
 	/*overflow-y: scroll;*/
 	font:16px sans-serif; *font-size: small;
 }
@@ -52,6 +51,7 @@ a, a:hover, a:active, a:visited
 	font-family: "hey_pretty_girl", sans-serif;
 	font-weight: normal;
 	font-style: normal;
+	font-size:24px;
 }
 
 #menu_principal .letrero
@@ -158,7 +158,7 @@ a.principal img
 .letrero_principal
 {
 	width: 213px;
-	line-height: 42.5px;
+	line-height: 44.5px;
 	margin: 0 auto;
 	font-weight: 400;
 	font-size: 42.9px;
@@ -321,13 +321,13 @@ footer.home a
 header.about_me, header.follow_me, header.more
 {
 	background-color: rgb(255, 204, 0);
-	padding-top: 15px;
+	padding: 30px 0 20px 0;
 }
 
 header.about_me span, header.follow_me span, header.more span
 {
 	text-align: center;
-	padding-top: 5px;
+	padding-top: 8px;
 	padding-bottom: 5px;
 }
 
@@ -411,7 +411,7 @@ footer.about_me, footer.follow_me, footer.more
 
 footer.about_me a, footer.follow_me a, footer.more a
 {
-	height: 50px;
+	height: 70px;
 	width: 80px;
 	margin: auto;
 	padding-top: 20px;
@@ -469,8 +469,7 @@ section.follow_me nav
 	border: none;
 }
 
-section.more
-{
+section.more {
 	font-family: "hey_pretty_girl";
 	font-weight: 900;
 	font-size: 40px;
@@ -481,29 +480,50 @@ section.more
 
 .dibujo {
 	text-align: center;
-	margin: 50px 80px 20px 80px;
+	margin: 0 60px;
+	height: 95%;
+}
+.imgs{
+	margin-top:300px;
 }
 .imgs li{
 	display:inline-block;
-	text-decoration: none;
+	height:250px;
+	margin-top:-250px;
+}
+.magia {
+	height:250px;
+}
+.img_info{
+	height: 250px;
+	margin:10px;
 	position: relative;
+	bottom:280px;
+	right:0;
 }
-.imgs li img{
+.img_transp{
 	height: 250px;
-	margin:5px;
+	opacity:1;
 }
-.imgs li p{
-	display: none;
+.imgs_txt{
+	opacity:0;
+	height: 250px;
+	margin:10px;
+	padding-top:100px;
+	z-index:2;
 
 }
-
-.hover{
-	font-family: "hey_pretty_girl";
-	height: 250px;
+.imgs_circulo{
+	width: 270px;
+	height: 270px;
 	border-radius: 50%;
-	opacity: 0.1;
-	display: inline-block;
-	position: absolute;
-	top: 125px;
-	left: 90px;
+	background-color:#F2F2F2;
+	color: black;
+	font-family: "hey_pretty_girl";
+	font-size:48px;
+	border-radius: 50%;
+	opacity: 0.95;
+	padding-top:120px;
+	z-index:2;
+	position: relative;
 }
