@@ -136,23 +136,20 @@ header.home
 {
 	clear: both;
 	padding-top: 20px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 80px;
 }
 
 a.principal
 {
 	display: block;
 	height: 350px;
-	width: 220px;
+	width: 300px;
 	margin: 0 auto;
 }
 
 a.principal img
 {
 	display: block;
-	margin: 0 auto;
+	width:300px;
 }
 
 .letrero_principal
@@ -171,6 +168,7 @@ a.principal img
 {
 	position: relative;
 	top: -15px;
+	padding-top:1px;
 }
 
 #letrero_principal_header
