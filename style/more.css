@@ -1,0 +1,15 @@
+.link{
+	font-size:60px;
+	color: rgb(255, 204, 0);
+	font-weight:normal;
+}
+.linkP{
+	font-size:24px;
+	margin:5px;
+	font-weight:normal;
+}
+.linkPsub{
+	font-size:14px;
+	margin:0;
+	font-weight:normal;
+}
