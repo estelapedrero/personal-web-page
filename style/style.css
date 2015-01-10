@@ -35,7 +35,6 @@ header, footer, nav, span, a
 
 nav ul, nav li
 {
-	margin: 0;
 	list-style: none;
 	list-style-image: none;
 }
@@ -46,6 +45,7 @@ a, a:hover, a:active, a:visited
 	text-decoration: none;
 }
 .main-menu{
+	text-align:center;
 	margin-top:3%;
 }
 .letrero
@@ -75,13 +75,13 @@ a, a:hover, a:active, a:visited
 
 .boton
 {
-	width: 80px;
-	height: 76px;
-	background: transparent url(../img/boton_negro.png) no-repeat center;
+	width: 75px;
+	height: 75px;
+	background-color:black;
+	border-radius:50%;
 	border: none;
 	line-height: 0; font-size: 0;
 	margin: auto;
-	padding: 0;
 	z-index: 100;
 	border: none;
 }
@@ -90,7 +90,8 @@ a, a:hover, a:active, a:visited
 {
 	width: 33px;
 	height: 33px;
-	background: transparent url(../img/boton_volver_negro.png) no-repeat center;
+	background-color:black;
+	border-radius:50%;
 	border: none;
 	line-height: 0; font-size: 0;
 	margin: auto;
@@ -98,13 +99,17 @@ a, a:hover, a:active, a:visited
 	z-index: 100;
 	border: none;
 }
-
+.contenedor_home{
+	width: 100%;
+	min-height: 100%;
+	padding:0;
+}
 .contenedor
 {
 	width: 100%;
 	min-height: 100%;
 	height: auto;
-	padding: 0;
+	padding: 100px 0 0 0; 
 	margin: 0;
 }
 
@@ -115,6 +120,7 @@ a, a:hover, a:active, a:visited
 	font-weight: 700;
 	color: #333333;
 	text-align: center;
+	padding-top:5px;
 }
 
 header.home
@@ -147,7 +153,6 @@ a.principal img
 .letrero_principal
 {
 	width: 213px;
-	line-height: 44.5px;
 	margin: 0 auto;
 	font-weight: 400;
 	font-size: 42.9px;
@@ -155,12 +160,14 @@ a.principal img
 	text-align: center;
 	background-color: black;
 }
-
+.letrero_info{
+	padding-top:10px;
+}
 #letrero_principal_home
 {
 	position: relative;
 	top: -15px;
-	padding-top:1px;
+	padding-top:1%;
 }
 
 #letrero_principal_header
@@ -169,81 +176,63 @@ a.principal img
 
 a:hover div.boton
 {
-	width: 80px;
-	height: 76px;
-	background: transparent url(../img/boton_amarillo.png) no-repeat center;
-	border: none;
-	line-height: 0; font-size: 0;
-	margin: auto;
-	padding: 0;
-	z-index: 100;
-	border: none;
+	background-color: rgb(255, 204, 0);
 }
 
 a:hover div.boton_volver
 {
 	width: 33px;
 	height: 33px;
-	background: transparent url(../img/boton_volver_amarillo.png) no-repeat center;
-	border: none;
-	line-height: 0; font-size: 0;
-	margin: auto;
-	padding: 0;
-	z-index: 100;
-	border: none;
+	background-color:rgb(255, 204, 0);
+
 }
 
 #about_me
 {
-	width: 80px;
-	height: 76px;
+	height: 60%;
 	background: transparent url(../img/icono_about_me.png) no-repeat center;
 	margin: auto;
-	padding: 0;
+	padding-top: 90%;
 	z-index: 500;
 	border: none;
 }
 
 #arq
 {
-	width: 80px;
-	height: 76px;
+	height: 60%;
 	background: transparent url(../img/icono_arq.png) no-repeat center;
 	margin: auto;
-	padding: 0;
+	padding-top: 90%;
 	z-index: 500;
 	border: none;
 }
 
 #sketch
 {
-	width: 80px;
-	height:76px;
+	height:60%;
 	background: transparent url(../img/icono_sketch.png) no-repeat center;
 	margin: auto;
-	padding: 0;
+	padding-top: 95%;
 	z-index: 500;
 	border: none;
 }
 
 #more
 {
-	width: 80px;
-	height: 76px;
+	height: 60%;
 	background: transparent url(../img/icono_more.png) no-repeat center;
 	margin: auto;
-	padding: 0;
+	padding-top: 95%;
 	z-index: 500;
 	border: none;
 }
 
 #follow_me
 {
-	width: 80px;
-	height: 76px;
+	height: 60%;
 	background: transparent url(../img/icono_arrow.png) no-repeat center;
 	margin: auto;
-	padding: 0;
+	padding-top: 90%;
 	z-index: 500;
 	border: none;
 }
@@ -261,13 +250,8 @@ a:hover div.boton_volver
 
 li.boton_menu
 {
-	display: block;
-	width: 90px;
-	float: left;
-	margin: 0 19px;
-}
-li.boton_follow{
-	margin: 0 14px;
+	display: inline-block;
+	padding:0 30px 20px 30px;
 }
 li.boton_menu a
 {
@@ -277,12 +261,13 @@ li.boton_menu i
 {
 	color:white;
 	font-size:60px;
-	margin: 11px 14px;
+	padding-top:15%;
+	padding-left:16%;
 }
 li.boton_menu a span
 {
 	text-align: center;
-	font-size: 22px;
+	font-size: 20px;
 }
 
 footer.home
@@ -306,7 +291,11 @@ footer.home a
 header.about_me, header.follow_me, header.more
 {
 	background-color: rgb(255, 204, 0);
-	padding: 20px 0 10px 0;
+	padding: 15px 0 0 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
 }
 
 header.about_me span, header.follow_me span, header.more span
@@ -406,6 +395,7 @@ footer.about_me a span, footer.follow_me a span, footer.more a span
 	text-align: center;
 	color: black;
 	font-size: 14px;
+	padding-top:5px;
 }
 
 section.follow_me
@@ -415,35 +405,34 @@ section.follow_me
 
 #instagram
 {
-	width: 80px;
-	height: 76px;
+	height: 100%;
 	background: transparent url(../img/icono_instagram.png) no-repeat center;
 	margin: auto;
-	padding: 0;
+	padding-top: 90%;
 	z-index: 500;
 	border: none;
 }
 
 #flickr
 {
-	width: 80px;
-	height: 76px;
+	height: 80%;
 	background: transparent url(../img/icono_flickr.png) no-repeat center;
 	margin: auto;
-	padding: 0;
+	padding-top: 90%;
 	z-index: 500;
 	border: none;
 }
 
 #mail
 {
-	width: 80px;
-	height: 76px;
-	background: transparent url(../img/icono_mail.png) no-repeat center;
+	height: 60%;
 	margin: auto;
-	padding: 0;
+	padding-top: 42%;
+	padding-left:12%;
 	z-index: 500;
 	border: none;
+	font-size:60px;
+	color:white;
 }
 
 section.more {
@@ -457,37 +446,30 @@ section.more {
 
 .dibujo {
 	text-align: center;
-	margin: 0 60px;
-	height: 95%;
+	margin: 3% auto;
 }
 .imgs{
-	margin-top:300px;
+	margin:0 50px;
 }
 .imgs li{
 	display:inline-block;
-	height:250px;
-	margin-top:-250px;
 }
 .magia {
 	height:250px;
 }
 .img_info{
 	height: 250px;
-	margin:10px;
+	margin:10px 10px 0 10px;
 	position: relative;
-	bottom:280px;
-	right:0;
 }
 .img_transp{
 	height: 250px;
 	opacity:1;
 }
 .imgs_txt{
-	opacity:0;
-	height: 250px;
-	margin:10px;
-	padding-top:100px;
-	z-index:2;
+	font-family:"hey_pretty_girl";
+	font-size:30px;
+	margin-bottom:25px;
 
 }
 .imgs_circulo{
