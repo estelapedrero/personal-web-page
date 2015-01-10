@@ -446,7 +446,7 @@ section.more {
 
 .dibujo {
 	text-align: center;
-	margin: 3% auto;
+	margin: 1% auto;
 }
 .imgs{
 	margin:0 50px;
@@ -485,4 +485,24 @@ section.more {
 	padding-top:120px;
 	z-index:2;
 	position: relative;
+}
+.tab{
+	font-family:"hey_pretty_girl";
+	text-align:center;
+	font-size:36px;
+	padding:20px;
+	width:100%;
+}
+.tab p{
+	display:inline-block;
+	padding:0 20px;
+	border-radius:15px;
+}
+.merchandising{
+	display:none;
+	text-align:center;
+	font-family:"hey_pretty_girl";
+	font-size:21px;
+	margin: 3% auto;
+
 }
