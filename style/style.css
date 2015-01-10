@@ -318,7 +318,11 @@ section.about_me
 	font-weight: normal;
 	font-style: normal;
 }
-
+.texto a{
+	display:inline-block;
+	color:black;
+	font-weight:bold;
+}
 .gris
 {
 	color:rgb(102,102,102);
