@@ -498,6 +498,7 @@ section.more {
 	font-size:36px;
 	padding:20px;
 	width:100%;
+	cursor:pointer;
 }
 .tab p{
 	display:inline-block;
