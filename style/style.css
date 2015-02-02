@@ -61,18 +61,6 @@ a, a:hover, a:active, a:visited
 	color: black;
 }
 
-.corte_home
-{
-	clear: both;
-	padding-bottom: 80px;
-}
-
-.corte_about_me, .corte_follow_me, .corte_more
-{
-	clear: both;
-	padding-bottom: 90px;
-}
-
 .boton
 {
 	width: 75px;
@@ -101,15 +89,13 @@ a, a:hover, a:active, a:visited
 }
 .contenedor_home{
 	width: 100%;
-	min-height: 100%;
+	min-height:92%;
 	padding:0;
 }
 .contenedor
 {
 	width: 100%;
-	min-height: 100%;
-	height: auto;
-	padding: 100px 0 0 0; 
+	min-height:86%;
 	margin: 0;
 }
 
@@ -215,10 +201,11 @@ a:hover div.boton_volver
 
 #more
 {
+	color:white;
+	font-size:37px;
 	height: 60%;
-	background: transparent url(../img/icono_more.png) no-repeat center;
 	margin: auto;
-	padding-top: 95%;
+	padding-top: 53%;
 	z-index: 500;
 	border: none;
 }
@@ -257,8 +244,7 @@ li.boton_menu i
 {
 	color:white;
 	font-size:60px;
-	padding-top:15%;
-	padding-left:16%;
+	padding-top:12%;
 }
 li.boton_menu a span
 {
@@ -266,22 +252,12 @@ li.boton_menu a span
 	font-size: 20px;
 }
 
-footer.home
-{
-	height: 70px;
-	margin-top: -70px;
-}
-
 footer.home a
 {
 	text-align: center;
-	font-weight: 500;
-	font-style: normal;
 	font-size: 22px;
-	line-height: 50px;
 	color: black;
-	width: 240px;
-	margin: auto;
+	margin: 0 auto;
 }
 
 header.about_me, header.follow_me, header.more, header.arq
@@ -307,7 +283,8 @@ header.about_me span, header.follow_me span, header.more span, header.arq span
 section.about_me
 {
 	text-align: center;
-	padding-top: 20px;
+	padding-top: 8%;
+	min-height:90%;
 }
 
 .contenido span.texto
@@ -378,17 +355,9 @@ strong
 	border: none;
 }
 
-footer.about_me, footer.follow_me, footer.more
-{
-	height: 87px;
-	padding-bottom: 3px;
-}
-
 footer.about_me a, footer.follow_me a, footer.more a
 {
-	height: 70px;
-	width: 80px;
-	margin: auto;
+	margin: 0 auto;
 	padding-top: 20px;
 }
 
@@ -398,11 +367,6 @@ footer.about_me a span, footer.follow_me a span, footer.more a span
 	color: black;
 	font-size: 14px;
 	padding-top:5px;
-}
-
-section.follow_me
-{
-	margin: 10% 22%;
 }
 
 #instagram
@@ -427,26 +391,26 @@ section.follow_me
 
 #mail
 {
+	font-family: "aria";
 	height: 60%;
 	margin: auto;
 	padding-top: 42%;
-	padding-left:12%;
 	z-index: 500;
 	border: none;
 	font-size:60px;
 	color:white;
 }
 
-section.more {
+section.more, section.follow_me{
 	font-family: "hey_pretty_girl";
 	font-weight: 900;
 	font-size: 40px;
 	color: rgb(51, 51, 51);
 	text-align: center;
-	padding-top: 10%;
+	padding-top: 16%;
 }
 
-.dibujo {
+.dibujo, .pfc {
 	text-align: center;
 	margin: 1% auto;
 }
@@ -499,12 +463,13 @@ section.more {
 	font-family:"hey_pretty_girl";
 	text-align:center;
 	font-size:28px;
-	padding:20px;
+	padding:8% 20px 0 20px;
 	width:100%;
 	cursor:pointer;
 }
 .tab p{
 	display:inline-block;
+	margin:0;
 	padding:0 20px;
 	border-radius:15px;
 }

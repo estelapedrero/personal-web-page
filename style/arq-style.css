@@ -1,23 +1,25 @@
 .pfc{
 	text-align:center;
 }
-
+.pfc-intro{
+	margin-bottom:2%;
+}
 .pfc-video{
 	width:100%;
 	margin:10px auto;
 	display:inline-block;
 }
 .pfc-img{
-	width:80%;
+	width:70%;
 	margin:20px auto;
 }
 .main-pfc{
 	display:inline-block;
-	width:40%;
+	width:35%;
 }
 .proy-description{
 	display:inline-block;
-	width:40%;
+	width:35%;
 	vertical-align: top;
 	padding: 10px;
 }
@@ -25,14 +27,22 @@
 	text-align:right;
 	font-family:"hey_pretty_girl";
 	margin:0;
+	font-weight:normal;
+
 }
 .proy-description h3{
 	font-size:33px;
 	color:#088A79;
+
 }
 .proy-description p{
 	font-family: "luz_sans_book", Arial, sans-serif;
 	font-size:12px;
 	text-align:justify;
 	padding:4px 0;
+}
+.centrary {
+	position: relative;
+	top: 50%;
+	transform: translateY(14%);
 }
