@@ -3,10 +3,34 @@
 }
 
 .pfc-video{
-	width:80%;
+	width:100%;
 	margin:10px auto;
+	display:inline-block;
 }
 .pfc-img{
 	width:80%;
 	margin:20px auto;
+}
+.main-pfc{
+	display:inline-block;
+	width:40%;
+}
+.proy-description{
+	display:inline-block;
+	width:40%;
+	vertical-align: top;
+	padding: 20px;
+}
+.proy-description h3, h4, p{
+	text-align:right;
+	font-family:"hey_pretty_girl";
+	margin:0;
+}
+.proy-description h3{
+	font-size:33px;
+	color:#088A79;
+}
+.proy-description p{
+	font-family: "luz_sans_book", Arial, sans-serif;
+	font-size:12px;
 }
