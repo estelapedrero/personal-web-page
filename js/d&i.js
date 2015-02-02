@@ -2,18 +2,26 @@ $(document).ready(function(){
 	$('#ilustraciones').click(function(){
 		$('.merchandising').css('display','none');
 		$('.dibujo').css('display','inline');
-		$('#ilustraciones').css('background-color','#E0E0E0');
-		$('#merch').css('background-color','white');
-
+		$('#ilustraciones').addClass("active");
+		$('#merch').removeClass("active");
 
 		});
 		
 	$('#merch').click(function(){
 		$('.merchandising').css('display','inline');
 		$('.dibujo').css('display','none');
-		$('#merch').css('background-color','#E0E0E0');
-		$('#ilustraciones').css('background-color','white');
+		$('#merch').addClass("active");
+		$('#ilustraciones').removeClass("active");
 
 		});
 		
-})
+	$('#proyectofin').click(function(){
+		$('#proyectofin').addClass("active");
+		$('#otrosproy').removeClass("active");
+	});
+	$('#otrosproy').click(function(){
+		$('#otrosproy').addClass("active");
+		$('#proyectofin').removeClass("active");
+		
+	});
+});
